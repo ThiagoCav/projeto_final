@@ -1,0 +1,7 @@
+CREATE TABLE setor(
+	codigo BIGINT(20) PRIMARY KEY AUTO_INCREMENT,
+	nome VARCHAR(50) NOT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO setor (nome) values('SETOR UM');
+INSERT INTO setor (nome) values('SETOR DOIS');
